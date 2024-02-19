@@ -5,11 +5,11 @@
 
 content{
     display: inline-block;
-    background-color: rgba(243, 243, 243, 0.4);
+    background-color: rgba(174, 163, 163, 0.4);
     height: 73vh;
     height: 73dvh;
-    width: 97vw;
-    width: 97dvw;
+    width: 98vw;
+    width: 98dvw;
     padding: 3vh 1vw;
 }
 
@@ -33,20 +33,62 @@ footer p{
     font-size: xx-large;
 }
 
+
+
 h1{
     align-self: center;
 }
 
 .main-box{
+    color: black;
     display: flex;
-    background: black;
+    background: rgb(255, 255, 255);
+    border: 3px solid rgba(255, 255, 255, 0.822);
+    box-shadow: 10px 10px 9px rgba(255, 255, 255, 0.822),-10px -10px 9px rgba(255, 255, 255, 0.822),10px -10px 9px rgba(255, 255, 255, 0.822),-10px 10px 9px rgba(255, 255, 255, 0.822);
+    border-radius: 5%;
     display: flex;
     margin: 1vh 1vw;
     padding: 1vh 1vw;
     box-sizing: border-box;
-    width: 95vw;
-    width: 95dvw;
+    width: 95.5vw;
+    width: 95.5dvw;
     height: 71vh;
     height: 71dvh;
     
+}
+
+.main-img1{
+    border-radius: 5%;
+    display: flex;
+    margin: 1vh 1vw;
+    padding: 1vh 1vw;
+    box-sizing: border-box;
+}
+
+@media(1200px >= width > 950px ){
+    .main-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-img1{
+        height: 51vw;
+    }
+}
+@media(750px >= width > 600px ){
+    .main-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-img1{
+        height: 61vw;
+    }
+}
+
+@media(max-width: 600px){
+    .main-box {
+        flex-wrap: wrap;
+    }
+    .main-img1{
+        width: 93vw;
+    }
 }

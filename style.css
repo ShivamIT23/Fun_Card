@@ -4,29 +4,4 @@
 }
 
 body{
-    background-color: #fbb5ff;
-}
-
-content{
-    text-align: center;
-}
-
-content h1{
-    background-color: #d9a2ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 10vh;
-}
-
-.main-box{
-    background-image: url();
-    margin: 5vh 10vw;
-    height: 70vh;
-    width: 80vw;
-    background-color: #ffe4f0;
-    color: #ff9595;
-    border: 5px solid #a2ceff;
-    box-shadow: 15px 19px 14px #ff9595;
 }

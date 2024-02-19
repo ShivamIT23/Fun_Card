@@ -11,6 +11,7 @@ content{
     width: 98vw;
     width: 98dvw;
     padding: 3vh 1vw;
+    overflow: auto auto;
 }
 
 .head{

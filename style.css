@@ -81,7 +81,7 @@ h1{
         justify-content: center;
     }
     .main-img1{
-        height: 51vw;
+        height: 44.2vw;
     }
 }
 
@@ -91,11 +91,14 @@ h1{
         justify-content: center;
     }
     .main-img1{
-        height: 61vw;
+        height: 50vw;
     }
 }
 
 .text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
     padding: 2px;
 }
 

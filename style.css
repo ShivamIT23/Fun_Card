@@ -65,7 +65,17 @@ h1{
     box-sizing: border-box;
 }
 
-@media(1200px >= width > 950px ){
+@media (1170px >= width > 950px){
+    .main-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-img1{
+        height: 50vh;
+    }
+}
+
+@media(950px >= width > 750px ){
     .main-box{
         flex-wrap: wrap;
         justify-content: center;
@@ -74,6 +84,7 @@ h1{
         height: 51vw;
     }
 }
+
 @media(750px >= width > 600px ){
     .main-box{
         flex-wrap: wrap;
@@ -84,11 +95,29 @@ h1{
     }
 }
 
+.text{
+    padding: 2px;
+}
+
+.text h2{
+    text-align: center;
+    padding: 1px 0px 20px;
+}
+
 @media(max-width: 600px){
     .main-box {
         flex-wrap: wrap;
     }
     .main-img1{
         width: 93vw;
+    }
+}
+
+@media(height<= 700px){
+    .text h2{
+        font-size: 18px;
+    }
+    .text p{
+        font-size: 13px;
     }
 }
